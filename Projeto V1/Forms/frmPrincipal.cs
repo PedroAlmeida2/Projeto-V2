@@ -248,7 +248,7 @@ namespace Projeto_V1
 
         private void btAgendaConsulta_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.frmConsCli(), sender);
+            OpenChildForm(new Forms.frmConsAgenda(), sender);
         }
 
         private void btAgendaAgendamento_Click(object sender, EventArgs e)

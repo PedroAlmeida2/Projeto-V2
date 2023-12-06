@@ -91,11 +91,11 @@
     <Compile Include="Forms\frmConsAgenda.Designer.cs">
       <DependentUpon>frmConsAgenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmConsCli.cs">
+    <Compile Include="Forms\frmEditarCli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmConsCli.Designer.cs">
-      <DependentUpon>frmConsCli.cs</DependentUpon>
+    <Compile Include="Forms\frmEditarCli.Designer.cs">
+      <DependentUpon>frmEditarCli.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmConsFunc.cs">
       <SubType>Form</SubType>
@@ -109,11 +109,11 @@
     <Compile Include="Forms\frmConsServicos.Designer.cs">
       <DependentUpon>frmConsServicos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmEditarCli.cs">
+    <Compile Include="Forms\frmConsCli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmEditarCli.Designer.cs">
-      <DependentUpon>frmEditarCli.cs</DependentUpon>
+    <Compile Include="Forms\frmConsCli.Designer.cs">
+      <DependentUpon>frmConsCli.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmEditarFunc.cs">
       <SubType>Form</SubType>
@@ -144,14 +144,14 @@
     <EmbeddedResource Include="Forms\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmConsCli.resx">
-      <DependentUpon>frmConsCli.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmEditarCli.resx">
+      <DependentUpon>frmEditarCli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmConsFunc.resx">
       <DependentUpon>frmConsFunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmEditarCli.resx">
-      <DependentUpon>frmEditarCli.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmConsCli.resx">
+      <DependentUpon>frmConsCli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmEditarFunc.resx">
       <DependentUpon>frmEditarFunc.cs</DependentUpon>
@@ -197,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Clock.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
